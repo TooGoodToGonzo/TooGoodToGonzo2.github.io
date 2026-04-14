@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games I Keep Coming Back To - Message Page</title>
+  <link rel="stylesheet" href="style.css">
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y96255QTKG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y96255QTKG');
+  </script>
+</head>
+<body data-page="Contact">
+  <header>
+    <h1>Games I Keep Coming Back To</h1>
+    <p>A small class project built around games I actually like and basic website analytics.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="games.html">Game List</a>
+      <a href="contact.html">Message Page</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-box">
+      <h2>Message Page</h2>
+      <p>
+        This page is here mostly for interaction tracking, but it also gives people a place to leave a quick
+        message about what they have been playing lately. Since this is just for class, it does not actually
+        send anything to an email.
+      </p>
+      <p>
+        It still helps with the assignment though because it gives me another page where I can track form
+        submissions, button clicks, navigation, and how long people stay here.
+      </p>
+
+      <button type="button" class="track-button">Tap Here</button>
+    </section>
+
+    <section class="form-box">
+      <h3>Leave a Message</h3>
+      <form id="contactForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="message">What game have you been playing lately?</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
