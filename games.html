@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games I Keep Coming Back To - Game List</title>
+  <link rel="stylesheet" href="style.css">
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y96255QTKG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y96255QTKG');
+  </script>
+</head>
+<body data-page="Games">
+  <header>
+    <h1>Games I Keep Coming Back To</h1>
+    <p>A small class project built around games I actually like and basic website analytics.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="games.html">Game List</a>
+      <a href="contact.html">Message Page</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-box">
+      <h2>Game List</h2>
+      <p>
+        These are not necessarily the best games ever made, but they are some of the ones I keep coming back to.
+        They are all pretty different from each other, which is part of why I like them.
+      </p>
+      <p>
+        Some are more competitive and some are better for just relaxing, but all of them have something that
+        makes them worth replaying. I wanted this page to be the one with the most actual content on the site.
+      </p>
+    </section>
+
+    <section class="table-box">
+      <h3>Some of My Favorites</h3>
+      <table>
+        <tr>
+          <th>Game</th>
+          <th>Genre</th>
+          <th>Why I Like It</th>
+        </tr>
+        <tr>
+          <td>Elden Ring</td>
+          <td>Action RPG</td>
+          <td>It has a huge world and it feels rewarding to explore.</td>
+        </tr>
+        <tr>
+          <td>Stardew Valley</td>
+          <td>Simulation</td>
+          <td>It is easy to relax with and still somehow lose hours in.</td>
+        </tr>
+        <tr>
+          <td>Counter-Strike 2</td>
+          <td>FPS</td>
+          <td>It is competitive and a lot better with friends.</td>
+        </tr>
+      </table>
+
+      <button type="button" class="track-button">I Like This Page</button>
+    </section>
+
+    <section class="form-box">
+      <h3>Genre Poll</h3>
+      <form id="gamesForm">
+        <label for="genre">Favorite genre</label>
+        <input type="text" id="genre" name="genre" required>
+        <button type="submit">Vote</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
